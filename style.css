@@ -1237,7 +1237,7 @@ body{
 @media only screen and (max-width:680px) {
 
     .Hero{
-        height: 70vh;
+        height: 100vh;
         background: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .4) 60%, rgba(0, 0, 0, .8) 100%), url(./images/hello.jpg);
         background-repeat: no-repeat;
         background-color: #00000066;
@@ -1262,7 +1262,7 @@ body{
 
  
     .Hero-Content{
-        width: 550px;
+        width: 100%;
         margin: auto;
         margin-top: 60px;
         text-align: center;
@@ -1292,23 +1292,26 @@ body{
     }
     
     .form{
+        width: 100%;
+        margin: auto;
         margin-top: 10px;
+
     } 
 
     .Hero-Content .input1{
 
-        width: 450px;
+        width: 70%;
         height:55px;
     
     }
 
     .Hero-Content .input2{
 
-        width: 200px;
+        width: 40%;
         height: 55px;
         background-color: var(--main-color);
         color: white;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border: 2px solid var(--main-color);
         font-weight: 500;
         border-radius: 5px;
@@ -1317,4 +1320,34 @@ body{
     
     }
         
+    .FAQ .input1{
+
+        width: 80%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.519);
+        margin-right: 7px;
+        border: none;
+        box-shadow: 0px 0px 2px white;
+        border-radius: 5px;
+        color: white;
+        padding-left: 30px;
+        font-size: 1.2rem;
+    
+    }
+
+    .FAQ .input2{
+
+        width: 50%;
+        height: 60px;
+        background-color: var(--main-color);
+        color: white;
+        font-size: 1rem;
+        border: 2px solid var(--main-color);
+        font-weight: 700;
+        border-radius: 5px;
+        padding: 1px 16px;
+        margin-top: 20px;
+    
+    }
+    
     }
