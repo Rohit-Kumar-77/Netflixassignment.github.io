@@ -1278,7 +1278,7 @@ body{
     
     .Hero-Content .p1{
 
-        line-height: 3;
+        line-height: 1.5;
 
     }
     
@@ -1305,6 +1305,8 @@ body{
     
     }
 
+  
+
     .Hero-Content .input2{
 
         width: 40%;
@@ -1318,6 +1320,15 @@ body{
         padding: 1px 16px;
         margin-top: 20px;
     
+    }
+
+
+    .section2 h1{
+        font-size:3.2rem;
+        font-weight: 900;
+        color: white;
+        opacity: 0.9;
+        line-height: 1.3;
     }
         
     .FAQ .input1{
