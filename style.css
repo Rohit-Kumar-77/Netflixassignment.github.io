@@ -1237,7 +1237,7 @@ body{
 @media only screen and (max-width:680px) {
 
     .Hero{
-        height: 100vh;
+        height: 90vh;
         background: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .4) 60%, rgba(0, 0, 0, .8) 100%), url(./images/hello.jpg);
         background-repeat: no-repeat;
         background-color: #00000066;
