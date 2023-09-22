@@ -153,14 +153,23 @@ body{
 }
 .section2-images{
     width: 600px;
+    position: relative;
    
+
+}
+.section2-images video{
+    position: absolute;
+    bottom: 105px;
+    right: 92px;
+    width: 70%;
 
 }
 
 .section2-images img{
     width: 100%;
-
+ 
 }
+
 .section2 h1{
     font-size:3.2rem;
     font-weight: 900;
@@ -206,6 +215,7 @@ body{
     width: 100%;
 
 }
+
 .section3 h1{
     font-size:3.2rem;
     font-weight: 900;
@@ -498,6 +508,14 @@ body{
 
 }
 
+.section2-images video{
+    position: absolute;
+    bottom: 87px;
+    right: 79px;
+    width: 345px;
+
+}
+
 .section2-images img{
     width: 100%;
 
@@ -674,6 +692,15 @@ body{
 
 .section2-images{
     width: 400px;
+
+}
+
+
+.section2-images video{
+    position: absolute;
+    bottom: 68px;
+    right: 65px;
+    width: 272px;
 
 }
 
@@ -923,8 +950,14 @@ body{
 
 .section2-images{
     width: 90vw;
+    position: relative;
+}
 
-   
+.section2-images video{
+    position: absolute;
+    bottom: 125px;
+    right: 108px;
+    width: 486px;
 
 }
 
@@ -1241,7 +1274,7 @@ body{
 
 }
 
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:768px) {
 
     .Hero{
         height: 90vh;
@@ -1309,6 +1342,19 @@ body{
 
         width: 70%;
         height:55px;
+    
+    }
+
+    .section2-images{
+        width: 90vw;
+        position: relative;
+    }
+    
+    .section2-images video{
+        position: absolute;
+        bottom: 25%;
+        right: 16%;
+        width: 69%;
     
     }
 
